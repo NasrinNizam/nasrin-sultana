@@ -1,0 +1,15 @@
+.greet{
+    @apply pt-[120px] w-full
+}
+.text{
+    
+}
+.text h1{
+    @apply lg:text-[70px] font-thin font-roboto lg:leading-[92px] mt-[35px]
+}
+.text h1 span{
+    @apply font-medium
+}
+.line{
+    @apply w-20 h-[1px] bg-black
+}

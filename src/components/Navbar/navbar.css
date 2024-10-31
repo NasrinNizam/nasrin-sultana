@@ -1,0 +1,26 @@
+.menu{
+    @apply w-full bg-transparent py-[13px] border-y-[1px] border-y-[#E6E6E6] hidden lg:block
+}
+.menu-list{
+    @apply flex justify-between items-center
+}
+.logo{
+    @apply lg:w-[49px] lg:h-[52px] overflow-hidden
+}
+.logo img{
+    @apply w-full h-full
+}
+.main-menu ul{
+    @apply flex items-center gap-[30px]
+}
+.menu-bar{
+    @apply flex items-center gap-[120px]
+}
+.menu-button{
+    @apply flex items-center gap-10
+}
+.menu-button button{
+    @apply text-[16px] font-roboto font-normal text-white bg-black py-[10px] px-5 rounded-[5px]
+}.menu-button .icon{
+    @apply bg-black bg-opacity-10 w-10 h-10 flex justify-center items-center rounded-[5px]
+}
